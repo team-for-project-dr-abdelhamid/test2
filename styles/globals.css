@@ -1,0 +1,285 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    
+}
+
+a {
+  
+  text-decoration: none;
+  color:#ffc800;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img{
+  object-fit: cover;
+  object-position: 0 30%;
+}
+
+/* ----------- Loading ------------- */
+@import url("./loading.css");
+
+/* ----------- Products ------------- */
+@import url("./product.css");
+
+/* ----------- Profile ------------- */
+@import url("./profile.css");
+
+/* ----------- Products Manager ------------- */
+@import url("./products_manager.css");
+
+.navbar{
+  color:black;
+}
+.bg-light {
+  background-color: #1d2124!important;
+}
+
+  @media (min-width: 800px){
+  .container, .container-lg, .container-md, .container-sm {
+      max-width: 2000px;
+  }}
+
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+   margin-right: 0px; 
+   margin-left: 0px;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #f8f9fa;
+}
+
+
+.navbar-nav:hover {
+  color:#ffc800;
+}
+ .nav-link :hover{
+  color:#ffc800;
+}
+
+.nav-item :hover{
+  color:#ffc800;
+}
+
+.navbar-light .navbar-brand {
+  color: #ffc107;
+}
+.navbar-light:hover {
+  color: #ffc800;
+}
+
+.mt-2, .my-2 {
+  margin-top: 0rem!important;
+}
+
+.custom-select {
+  border: 1px solid black;
+
+}
+
+.mt-2 {
+  border: 1px solid black;
+  border-radius: 0.25rem;
+}
+
+.mt-2:hover{
+
+  color: #ffc800;
+}
+li a:hover{
+  color: #ffc800;;
+}
+li a {
+  color: black;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #d39e00;
+  border-color: #d39e00;
+}
+
+ .btn .btn-success:hover {
+  color: #fff;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-success:disabled {
+  color: #fff;
+   background-color:#ffc107 ; 
+   border-color: #ffc107; }
+
+   .btn-info {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+.products {
+ 
+  margin:  0;
+ 
+ }
+ 
+ .input-group-prepend {
+   margin-right: 0px;}
+
+  .logo{
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size:x-large;
+    
+  }
+
+ a:hover{
+    color: #ffc107;
+    text-decoration: none;
+  }
+ .nav-link.active{
+     color: white; 
+}
+
+li.nav-link:hover{
+  color:white;
+}
+li.nav-item:hover{
+  color:white;
+}
+
+.custom-select {
+  border: 1px solid white; 
+}
+
+.input-group-prepend:hover {
+  color:#ffc107;
+}
+
+ a.btn.btn-info:hover{
+  background-color:gray;
+  border:gray;
+ }
+ button.btn.btn-success:hover{
+  background-color:#ffc800;
+  border: #ffc800;
+ }
+
+button.btn.btn-outline-info.d-block.mx-auto.mb-4:hover{
+  background-color:#ffc800;
+  border: #ffc800;
+ }
+
+ .btn-outline-info {
+  color:#d39e00 ;
+  border-color:#d39e00;
+}
+div.input-group-prepend.col-md-2.px-0.mt-2:hover{
+  color:#d39e00;
+}
+
+
+
+button.btn.btn-info:hover{
+  background-color:#ffc107;
+  border:#ffc107;
+}
+button.btn.btn-info{
+  background-color: #d39e00;
+  border:#d39e00;
+}
+.col-md-6{
+  
+  border-radius: 5em;
+}
+
+input{
+  border-radius: 0.5em;
+}
+textarea{
+  border-radius: 0.5em;
+}
+.text-info {
+  color:#d39e00 !important;
+}
+
+
+tbody{
+  color:black;
+}
+
+thead{
+  color:gray;
+}
+.form-group {
+  margin-left: 1rem;
+}
+
+button.btn.btn-info{
+
+margin-left: 1rem;
+}
+
+
+
+form.mx-auto,.my-4{
+min-height:600px;
+}
+
+ .my-4 {
+   margin-top: 7rem!important; 
+}
+
+.btn.btn-dark.w-100 {
+  margin-left: 1rem;
+}
+.btn.btn-dark.w-100 {
+  margin-bottom: 1rem;
+}
+.card{
+  width:25rem;
+  max-width: inherit;
+
+}
+
+div.col-md-8.text-secondary.table-responsive.my-3{
+
+  height:600px;
+  
+
+}
+
+.container{
+  background-color: #fffbf2;
+}
+
+
+.mt-4 {
+  margin-top: 1.5rem!important;
+}
+
+.w-100 {
+  width: 500px!important;
+}
+
+.detail_page{
+  height: 700px;
+}
+
+.products .card-img-top {
+  height: 350px;
+  
+}

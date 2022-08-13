@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    "BASE_URL": "https://testmohamedkhaled.herokuapp.com/",
+    "BASE_URL": "https://test2mohamed.herokuapp.com/",
     "MONGODB_URL":
       "mongodb+srv://drogo:1234@cluster0.g7ulmmn.mongodb.net/?retryWrites=true&w=majority",
     "ACCESS_TOKEN_SECRET": "0q%nmK@ZLyYBitw5myizzl@B$!dXPZ9n@X%QM^&Hnumh^YcBm1",
